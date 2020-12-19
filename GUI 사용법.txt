@@ -1,0 +1,33 @@
+프레임을 만들고 그 안에 엔트리/버튼 등을 만듦
+
+
+listbox 정리 : https://076923.github.io/posts/Python-tkinter-5/
+코딩 꿀팁모음 : https://076923.github.io/posts/#Python-Tkinter
+
+
+pack 파라미터
+side : 특정 위치로 공간 할당 (top,bottom,left,right)
+anchor : 할당 공간 내에서 위치 지정 (center,n,e,s,w,ne,nw,se,sw)
+fill : 할당 공간에 크기 맞춤(none, x, y, both)
+expand : 미사용 공간 확보
+ipadx/ipady : 위젯에 대한 내부 패딩
+padx/pady : 위젯에 대한 외부 패딩
+
+
+activestyle 파라미터
+underline : 선택된 항목의 문자열에 밑줄 적용
+dotbox : 선택된 항목에 점선 테두리 적용
+none : 선택된 항목에 블럭처리만 허용
+
+selectmode 파라미터
+browse : 단일 선택, 방향키 이동시 선택
+single : 단일 선택, 방향키 이동 후 스페이스바로 선택
+multiple : 다중 선택, 마우스 클릭이다 방향키 이동 수 스페이스바로 선택
+extended : 다중 선택, 마우스 드래그나 쉬프트키 + 방향키 이동 선택
+
+
+
+
+
+tkinter 보다 pyqt를 많이 사용함
+더 다양한 인터페이스, 효과 지원
